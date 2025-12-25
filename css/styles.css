@@ -479,7 +479,7 @@ p {
     position: absolute;
     top: -12px;
     right: var(--spacing-md);
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
     color: var(--bg-white);
     padding: 0.5rem 1rem;
     border-radius: var(--radius-md);
@@ -490,7 +490,16 @@ p {
 .plan-card h3 {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: var(--spacing-xs);
+}
+
+.plan-subtitle {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
     margin-bottom: var(--spacing-md);
+    min-height: 2.5rem;
+    font-style: italic;
 }
 
 .plan-price {
