@@ -1,0 +1,13 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Microline Solutions Logo -->
+  <rect x="5" y="15" width="30" height="30" rx="5" fill="#2563eb"/>
+  <path d="M15 25 L20 35 L25 25 L25 40 M20 35 L20 40" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <text x="45" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a2332">
+    Microline Solutions
+  </text>
+  
+  <text x="45" y="48" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+    Odoo ERP Specialists
+  </text>
+</svg>

@@ -191,6 +191,11 @@ p {
     margin: 0;
 }
 
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -277,6 +282,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
 }
 
 .placeholder-image {

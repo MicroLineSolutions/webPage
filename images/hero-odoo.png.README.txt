@@ -1,0 +1,8 @@
+# Hero Image Placeholder
+
+This is a placeholder for the hero-odoo.png image.
+
+Please replace this with an actual image of an Odoo ERP dashboard or relevant hero image.
+
+Recommended dimensions: 1200x800px or similar 3:2 ratio
+Format: PNG with transparency support
