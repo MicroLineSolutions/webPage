@@ -415,6 +415,14 @@ p {
     color: var(--primary-color);
 }
 
+.package-price .price-range {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    display: block;
+    line-height: 1.4;
+}
+
 .package-features {
     list-style: none;
     margin: var(--spacing-md) 0;
@@ -575,21 +583,31 @@ p {
     border-bottom: 2px solid var(--border-color);
 }
 
-.plan-price .currency {
-    font-size: 1.5rem;
-    color: var(--text-secondary);
-    vertical-align: top;
-}
-
-.plan-price .amount {
-    font-size: 3rem;
+.plan-price .amount,
+.plan-price .amount-range {
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--primary-color);
+    display: block;
+    line-height: 1.2;
+}
+
+.plan-price .amount-range {
+    font-size: 1.75rem;
+}
+
+.plan-price .currency {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-left: 0.25rem;
 }
 
 .plan-price .period {
     font-size: 1rem;
     color: var(--text-secondary);
+    display: block;
+    margin-top: 0.25rem;
 }
 
 .plan-features {
