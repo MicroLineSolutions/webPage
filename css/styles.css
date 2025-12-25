@@ -551,8 +551,10 @@ p {
 
 .benefits-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--spacing-md);
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .benefit-card {
