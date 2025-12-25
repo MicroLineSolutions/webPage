@@ -783,6 +783,18 @@ p {
     margin: 0;
     color: var(--text-secondary);
     font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.contact-info-side .contact-item a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.contact-info-side .contact-item a:hover {
+    color: var(--secondary-dark);
+    text-decoration: underline;
 }
 
 /* ========================================
