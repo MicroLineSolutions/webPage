@@ -916,6 +916,21 @@ p {
     height: 32px;
 }
 
+/* ========================================
+   HubSpot Chat Positioning
+   ======================================== */
+#hubspot-messages-iframe-container {
+    bottom: 100px !important;
+    z-index: 998 !important;
+}
+
+/* Responsive adjustment for HubSpot chat */
+@media (max-width: 768px) {
+    #hubspot-messages-iframe-container {
+        bottom: 80px !important;
+    }
+}
+
 /* Contact Info Grid */
 .contact-info-grid {
     display: grid;
