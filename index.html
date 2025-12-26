@@ -311,85 +311,65 @@
         <div class="container">
             <div class="section-header">
                 <h2>Contacto</h2>
-                <p>¿Listo para implementar Odoo en tu empresa? Escríbenos y nos pondremos en contacto.</p>
+                <p>¿Listo para implementar Odoo en tu empresa? Contáctanos por WhatsApp.</p>
             </div>
-            <div class="contact-content">
-                <form class="contact-form" action="#" method="POST">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="nombre">Nombre completo *</label>
-                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
-                        </div>
-                        <div class="form-group">
-                            <label for="empresa">Empresa *</label>
-                            <input type="text" id="empresa" name="empresa" required placeholder="Nombre de tu empresa">
-                        </div>
+            <div class="contact-info-grid">
+                <div class="contact-item">
+                    <span class="icon">📧</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p><a href="mailto:contacto@microlinesolutions.com">contacto@microlinesolutions.com</a></p>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="email">Email *</label>
-                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="telefono">Teléfono *</label>
-                            <input type="tel" id="telefono" name="telefono" required placeholder="+1 234 567 890">
-                        </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">📞</span>
+                    <div>
+                        <strong>Teléfono</strong>
+                        <p><a href="tel:+595993361400">+595 993 361 400</a></p>
                     </div>
-                    <div class="form-group">
-                        <label for="mensaje">Mensaje *</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntanos sobre tu proyecto y necesidades..."></textarea>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">💬</span>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p><a href="https://wa.me/595993361400?text=Hola,%20quiero%20más%20información%20sobre%20los%20paquetes%20de%20Odoo%20Community%20de%20Microline%20Solutions." target="_blank" rel="noopener">Enviar mensaje</a></p>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-submit">Solicitar Demo</button>
-                    <p class="form-note">Nos contactamos en un máximo de 24 horas hábiles.</p>
-                </form>
-                <div class="contact-info-side">
-                    <h3>Información de contacto</h3>
-                    <div class="contact-item">
-                        <span class="icon">📧</span>
-                        <div>
-                            <strong>Email</strong>
-                            <p><a href="mailto:contacto@microlinesolutions.com">contacto@microlinesolutions.com</a></p>
-                        </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <strong>Ubicación</strong>
+                        <p>Ruta PY02 Km 173 Barrio Walter Insfran<br>Caaguazú, Paraguay</p>
                     </div>
-                    <div class="contact-item">
-                        <span class="icon">📞</span>
-                        <div>
-                            <strong>Teléfono</strong>
-                            <p><a href="tel:+595993361400">+595 993 361 400</a></p>
-                        </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">🕒</span>
+                    <div>
+                        <strong>Horario de atención</strong>
+                        <p>Lun - Vie, 8:00-17:00</p>
                     </div>
-                    <div class="contact-item">
-                        <span class="icon">💬</span>
-                        <div>
-                            <strong>WhatsApp</strong>
-                            <p><a href="https://wa.link/vrr4ny" target="_blank" rel="noopener">Enviar mensaje</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">📍</span>
-                        <div>
-                            <strong>Ubicación</strong>
-                            <p>Ruta PY02 Km 173 Barrio Walter Insfran<br>Caaguazú, Paraguay</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">🕒</span>
-                        <div>
-                            <strong>Horario de atención</strong>
-                            <p>Lun - Vie, 8:00-17:00</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">🌐</span>
-                        <div>
-                            <strong>Redes sociales</strong>
-                            <p><a href="https://www.facebook.com/microlinesolutions" target="_blank" rel="noopener">Facebook</a></p>
-                        </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">🌐</span>
+                    <div>
+                        <strong>Redes sociales</strong>
+                        <p><a href="https://www.facebook.com/microlinesolutions" target="_blank" rel="noopener">Facebook</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/595993361400?text=Hola,%20quiero%20más%20información%20sobre%20los%20paquetes%20de%20Odoo%20Community%20de%20Microline%20Solutions." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.203 1.393 1.393-5.203-0.292-0.507c-1.224-2.162-1.87-4.588-1.87-7.07 0-7.72 6.28-14 14-14s14 6.28 14 14-6.28 14-14 14zM21.305 18.805c-0.355-0.18-2.107-1.040-2.435-1.16s-0.564-0.18-0.802 0.18c-0.237 0.355-0.923 1.16-1.131 1.397-0.208 0.237-0.416 0.267-0.771 0.089s-1.504-0.555-2.865-1.771c-1.059-0.946-1.774-2.113-1.981-2.468s-0.022-0.547 0.157-0.724c0.161-0.161 0.355-0.416 0.533-0.624s0.237-0.355 0.355-0.593c0.119-0.237 0.059-0.445-0.030-0.624s-0.802-1.933-1.099-2.646c-0.289-0.695-0.582-0.601-0.802-0.612-0.208-0.011-0.445-0.013-0.683-0.013s-0.624 0.089-0.951 0.445c-0.326 0.355-1.245 1.217-1.245 2.968s1.274 3.442 1.452 3.679c0.178 0.237 2.517 3.844 6.097 5.389 0.852 0.368 1.517 0.587 2.036 0.751 0.856 0.272 1.636 0.233 2.251 0.141 0.687-0.103 2.107-0.861 2.405-1.693s0.297-1.545 0.208-1.693c-0.089-0.148-0.326-0.237-0.683-0.416z"/>
+        </svg>
+    </a>
 
     <!-- Footer -->
     <footer class="footer">
