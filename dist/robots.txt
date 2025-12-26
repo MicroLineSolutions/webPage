@@ -1,0 +1,7 @@
+# Microline Solutions Landing Page
+# Sitemap para microlinesolutions.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://microlinesolutions.com/sitemap.xml
