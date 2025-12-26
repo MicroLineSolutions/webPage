@@ -909,7 +909,7 @@ p {
     background-color: #25D366;
     color: white;
     border-radius: 50%;
-    display: flex;
+    display: none; /* Oculto por defecto en escritorio */
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
@@ -927,21 +927,6 @@ p {
 .whatsapp-float svg {
     width: 32px;
     height: 32px;
-}
-
-/* ========================================
-   HubSpot Chat Positioning
-   ======================================== */
-#hubspot-messages-iframe-container {
-    bottom: 100px !important;
-    z-index: 998 !important;
-}
-
-/* Responsive adjustment for HubSpot chat */
-@media (max-width: 768px) {
-    #hubspot-messages-iframe-container {
-        bottom: 80px !important;
-    }
 }
 
 /* Contact Info Grid */
@@ -1082,6 +1067,7 @@ p {
     }
     
     .whatsapp-float {
+        display: flex; /* Mostrar en dispositivos móviles */
         width: 50px;
         height: 50px;
         bottom: 20px;
