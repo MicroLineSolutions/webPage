@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://microlinesolutions.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://microlinesolutions.com/images/hero-odoo.webp</image:loc>
+            <image:title>Panel de Control Odoo ERP</image:title>
+            <image:caption>Sistema de gestión empresarial y ventas para PyMEs en Paraguay</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://microlinesolutions.com/images/logo.webp</image:loc>
+            <image:title>Logo Microline Solutions</image:title>
+            <image:caption>Expertos en implementación y soporte Odoo ERP</image:caption>
+        </image:image>
+    </url>
+</urlset>

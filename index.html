@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Microline Solutions - Implementación, soporte y hosting de Odoo Community ERP para pequeñas empresas y PyMEs">
-    <title>Microline Solutions | Odoo Community ERP</title>
+    <meta name="description" content="Expertos en Odoo ERP Paraguay. Soluciones de gestión empresarial, soporte Odoo y hosting ERP seguro para potenciar tu PyME. ¡Contáctanos hoy!">
+    <title>Microline: Odoo ERP Paraguay, Soporte y Hosting PyMEs</title>
+    <link rel="canonical" href="https://microlinesolutions.com/">
+    <meta name="theme-color" content="#1a2332">
+    <link rel="preconnect" href="https://js.hsforms.net">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="TU_CODIGO_DE_VERIFICACION_AQUI">
+
+    <!-- Google Analytics 4 (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TU_ID_DE_MEDICION"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TU_ID_DE_MEDICION');
+    </script>
     
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
@@ -13,22 +28,83 @@
     <link rel="manifest" href="images/favicon/site.webmanifest">
     
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://microlinesolutions.com/#organization",
+          "name": "Microline Solutions",
+          "image": "https://microlinesolutions.com/images/logo.webp",
+          "url": "https://microlinesolutions.com/",
+          "telephone": "+595993361400",
+          "email": "contacto@microlinesolutions.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ruta PY02 Km 173 Barrio Walter Insfran",
+            "addressLocality": "Caaguazú",
+            "addressCountry": "PY"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "17:00"
+          },
+          "priceRange": "$$"
+        },
+        {
+          "@type": "Product",
+          "name": "Sistema básico para empezar (Odoo ERP)",
+          "description": "Instalación y configuración de Odoo Community para emprendedores. Incluye ventas, clientes, productos y hasta 3 usuarios.",
+          "image": "https://microlinesolutions.com/images/hero-odoo.webp",
+          "sku": "PKG-BASIC",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://microlinesolutions.com/#implementacion-odoo",
+            "priceCurrency": "PYG",
+            "price": "2345000",
+            "availability": "https://schema.org/InStock",
+            "seller": { "@id": "https://microlinesolutions.com/#organization" }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Sistema completo para PyMEs (Odoo ERP)",
+          "description": "Implementación completa de Odoo Community. Incluye inventario, gastos, impuestos, capacitación y hasta 5 usuarios.",
+          "image": "https://microlinesolutions.com/images/hero-odoo.webp",
+          "sku": "PKG-PRO",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://microlinesolutions.com/#implementacion-odoo",
+            "priceCurrency": "PYG",
+            "price": "4690000",
+            "availability": "https://schema.org/InStock",
+            "seller": { "@id": "https://microlinesolutions.com/#organization" }
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Header -->
     <header id="header">
         <div class="container">
             <div class="logo">
-                <img src="images/logo.png" alt="Microline Solutions Logo">
+                <img src="images/logo.webp" alt="Logo Microline Solutions - Expertos en Odoo ERP Paraguay" width="150" height="50">
             </div>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#hero">Inicio</a></li>
-                    <li><a href="#packages">Paquetes</a></li>
-                    <li><a href="#support">Soporte</a></li>
-                    <li><a href="#hosting">Hosting</a></li>
-                    <li><a href="#benefits">Beneficios</a></li>
-                    <li><a href="#contact" class="btn-nav">Contacto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#implementacion-odoo">Paquetes</a></li>
+                    <li><a href="#soporte-erp">Soporte</a></li>
+                    <li><a href="#hosting-odoo">Hosting</a></li>
+                    <li><a href="#beneficios-odoo">Beneficios</a></li>
+                    <li><a href="#contacto" class="btn-nav">Contacto</a></li>
                 </ul>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu">
                     <span></span>
@@ -40,33 +116,33 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero">
+    <section id="inicio" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2>Sistema de ventas y administración para tu negocio</h2>
-                <p class="hero-subtitle">Controla tus ventas, clientes, productos e inventario en un solo sistema, adaptado a la forma en que trabaja tu empresa.</p>
-                <p>Instalamos, configuramos y te enseñamos a usar un sistema claro, ordenado y fácil de manejar, para que tengas control real de tu negocio desde el primer día.</p>
+                <h1>ERP Odoo Paraguay: Gestión empresarial integral para tu negocio</h1>
+                <p class="hero-subtitle">Controla ventas, inventario y facturación con el mejor <strong>sistema de gestión en Paraguay</strong>. Adaptado a PyMEs y emprendedores.</p>
+                <p>Implementamos <strong>Odoo ERP</strong> para que tengas un control real de tu empresa. Sin licencias costosas, con soporte local y fácil de usar.</p>
                 <ul class="hero-highlights">
                     <li>– Ideal para emprendedores y pequeñas empresas</li>
                     <li>– Soporte local y acompañamiento real</li>
                     <li>– Sin pagos por licencias</li>
                 </ul>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Solicitar información</a>
+                    <a href="#contacto" class="btn btn-primary">Solicitar información</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero-odoo.png" alt="Odoo ERP Dashboard" class="hero-img">
+                <img src="images/hero-odoo.webp" alt="Panel de Control Odoo ERP - Gestión empresarial y ventas para PyMEs" class="hero-img" width="600" height="400" fetchpriority="high">
             </div>
         </div>
     </section>
 
     <!-- Odoo Packages -->
-    <section id="packages" class="packages">
+    <section id="implementacion-odoo" class="packages">
         <div class="container">
             <div class="section-header">
-                <h2>Sistema completo para la gestión de tu negocio</h2>
-                <p>Te ayudamos a poner en marcha un sistema que organiza y simplifica la administración de tu negocio, para que tengas control y claridad en tu día a día.</p>
+                <h2>Paquetes de Implementación Odoo ERP</h2>
+                <p>Elige la solución de <strong>gestión empresarial</strong> que mejor se adapte a tu etapa. Complementa tu sistema con nuestro <a href="#hosting-odoo" style="color: var(--secondary-color);">Hosting Odoo seguro</a>.</p>
             </div>
             <div class="packages-grid">
                 <!-- Package 1 -->
@@ -89,7 +165,7 @@
                         <li><span class="icon">✓</span> Acompañamiento en los primeros pasos</li>
                         <li><span class="icon">✓</span> Hasta 3 usuarios</li>
                     </ul>
-                    <a href="#contact" class="btn btn-outline">Más Información</a>
+                    <a href="#contacto" class="btn btn-outline">Más Información</a>
                 </div>
 
                 <!-- Package 2 -->
@@ -112,18 +188,18 @@
                         <li><span class="icon">✓</span> Capacitación funcional</li>
                         <li><span class="icon">✓</span> Hasta 5 usuarios</li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary">Más Información</a>
+                    <a href="#contacto" class="btn btn-primary">Más Información</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Support Plans -->
-    <section id="support" class="support">
+    <section id="soporte-erp" class="support">
         <div class="container">
             <div class="section-header">
-                <h2>Planes de Soporte y Acompañamiento</h2>
-                <p>Te acompañamos en el uso del sistema mediante planes de soporte definidos, para resolver dudas, atender incidencias y ayudarte a mantener la operación funcionando correctamente.</p>
+                <h2>Soporte Técnico Odoo y Mantenimiento</h2>
+                <p>Garantiza la continuidad operativa de tu <strong>ERP Odoo</strong> con nuestros planes de soporte. Resolvemos dudas, incidencias y te ayudamos a crecer.</p>
             </div>
             <div class="plans-grid">
                 <!-- Basic Support -->
@@ -141,7 +217,7 @@
                         <li><span class="icon">✓</span> Ajustes menores</li>
                         <li><span class="icon">✓</span> Copias de seguridad</li>
                     </ul>
-                    <a href="#contact" class="btn btn-outline">Contratar</a>
+                    <a href="#contacto" class="btn btn-outline">Contratar</a>
                 </div>
 
                 <!-- Standard Support -->
@@ -161,7 +237,7 @@
                         <li><span class="icon">✓</span> Reportes estándar</li>
                         <li><span class="icon">✓</span> Revisión mensual del sistema</li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary">Contratar</a>
+                    <a href="#contacto" class="btn btn-primary">Contratar</a>
                 </div>
 
                 <!-- Premium Support -->
@@ -180,19 +256,19 @@
                         <li><span class="icon">✓</span> Mantenimiento avanzado</li>
                         <li><span class="icon">✓</span> Acompañamiento en mejoras</li>
                     </ul>
-                    <a href="#contact" class="btn btn-outline">Contratar</a>
+                    <a href="#contacto" class="btn btn-outline">Contratar</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Managed Hosting Plans -->
-    <section id="hosting" class="hosting">
+    <section id="hosting-odoo" class="hosting">
         <div class="container">
             <div class="section-header">
-                <h2>¿Dónde funciona el sistema?</h2>
-                <p>El sistema necesita un espacio seguro para funcionar y estar disponible cuando lo necesites.</p>
-                <p>Nosotros nos encargamos de que el sistema esté siempre activo, protegido y con copias de seguridad, para que tú no tengas que preocuparte por la parte técnica.</p>
+                <h2>Hosting Odoo Seguro y Gestionado</h2>
+                <p>Tu sistema ERP necesita un alojamiento rápido y seguro. Ofrecemos infraestructura optimizada para <strong>Odoo en Paraguay</strong>.</p>
+                <p>Nosotros nos encargamos de las copias de seguridad, actualizaciones y seguridad. También ofrecemos <a href="#soporte-erp" style="color: var(--secondary-color);">Soporte ERP</a> especializado.</p>
             </div>
             <div class="hosting-options">
                 <!-- On-Premise Option -->
@@ -228,10 +304,10 @@
     </section>
 
     <!-- Hosting Plans with Pricing -->
-    <section id="hosting-plans" class="support">
+    <section id="planes-hosting-odoo" class="support">
         <div class="container">
             <div class="section-header">
-                <h2>Planes de Hosting Administrado</h2>
+                <h2>Planes de Alojamiento Cloud para Odoo</h2>
                 <p>Escoge el plan que mejor se adapte al tamaño de tu negocio</p>
             </div>
             <div class="plans-grid">
@@ -251,7 +327,7 @@
                         <li><span class="icon">✓</span> Sistema siempre disponible</li>
                     </ul>
                     <p style="font-size: 0.9rem; color: #666; margin-top: 1rem; font-style: italic;">*El soporte y acompañamiento se contratan por separado mediante los planes de soporte.</p>
-                    <a href="#contact" class="btn btn-outline">Contratar</a>
+                    <a href="#contacto" class="btn btn-outline">Contratar</a>
                 </div>
 
                 <!-- Standard Hosting -->
@@ -271,7 +347,7 @@
                         <li><span class="icon">✓</span> Sistema vigilado las 24 horas</li>
                     </ul>
                     <p style="font-size: 0.9rem; color: #666; margin-top: 1rem; font-style: italic;">*El soporte y acompañamiento se contratan por separado mediante los planes de soporte.</p>
-                    <a href="#contact" class="btn btn-primary">Contratar</a>
+                    <a href="#contacto" class="btn btn-primary">Contratar</a>
                 </div>
 
                 <!-- Premium Hosting -->
@@ -290,18 +366,18 @@
                         <li><span class="icon">✓</span> Espacio exclusivo para tu empresa</li>
                     </ul>
                     <p style="font-size: 0.9rem; color: #666; margin-top: 1rem; font-style: italic;">*El soporte y acompañamiento se contratan por separado mediante los planes de soporte.</p>
-                    <a href="#contact" class="btn btn-outline">Contratar</a>
+                    <a href="#contacto" class="btn btn-outline">Contratar</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Key Benefits -->
-    <section id="benefits" class="benefits">
+    <section id="beneficios-odoo" class="benefits">
         <div class="container">
             <div class="section-header">
-                <h2>Un sistema confiable, usado por miles de empresas</h2>
-                <p>Nuestro sistema está basado en Odoo, una plataforma empresarial utilizada por empresas de todo el mundo para gestionar sus negocios.</p>
+                <h2>¿Por qué elegir Odoo para tu empresa en Paraguay?</h2>
+                <p>Utilizamos <strong>Odoo Community</strong>, el software de gestión empresarial más popular del mundo, adaptado a la realidad local.</p>
                 <p>En Microline Solutions lo adaptamos y configuramos para que funcione como un sistema de ventas y administración sencillo, claro y fácil de usar.</p>
                 <p><strong>Tú te enfocas en tu negocio.<br>Nosotros nos encargamos del sistema.</strong></p>
             </div>
@@ -331,7 +407,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contacto" class="contact">
         <div class="container">
             <div class="section-header">
                 <h2>Contacto</h2>
@@ -417,17 +493,17 @@
                 <div class="footer-section">
                     <h4>Servicios</h4>
                     <ul>
-                        <li><a href="#packages">Implementación Odoo</a></li>
-                        <li><a href="#support">Soporte Técnico</a></li>
-                        <li><a href="#hosting">Hosting Gestionado</a></li>
-                        <li><a href="#contact">Consultoría</a></li>
+                        <li><a href="#implementacion-odoo">Implementación Odoo</a></li>
+                        <li><a href="#soporte-erp">Soporte Técnico</a></li>
+                        <li><a href="#hosting-odoo">Hosting Gestionado</a></li>
+                        <li><a href="#contacto">Consultoría</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Empresa</h4>
                     <ul>
-                        <li><a href="#benefits">Sobre Nosotros</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#beneficios-odoo">Sobre Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Casos de Éxito</a></li>
                     </ul>

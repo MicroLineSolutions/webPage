@@ -283,7 +283,7 @@ p {
     align-items: center;
 }
 
-.hero-content h2 {
+.hero-content h1 {
     color: var(--bg-white);
     font-size: 2.25rem;
     margin-bottom: var(--spacing-sm);
@@ -929,7 +929,7 @@ p {
     background-color: #25D366;
     color: white;
     border-radius: 50%;
-    display: none; /* Oculto por defecto en escritorio */
+    display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
@@ -1087,7 +1087,6 @@ p {
     }
     
     .whatsapp-float {
-        display: flex; /* Mostrar en dispositivos móviles */
         width: 50px;
         height: 50px;
         bottom: 20px;
