@@ -929,7 +929,7 @@ p {
     background-color: #25D366;
     color: white;
     border-radius: 50%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
@@ -1061,6 +1061,10 @@ p {
     
     .contact-info-grid {
         grid-template-columns: 1fr;
+    }
+
+    .whatsapp-float {
+        display: flex;
     }
 }
 
