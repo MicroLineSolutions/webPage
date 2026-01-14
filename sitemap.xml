@@ -6,12 +6,12 @@
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://microlinesolutions.com/images/hero-odoo.webp</image:loc>
+            <image:loc>https://microlinesolutions.com/images/hero-odoo.png</image:loc>
             <image:title>Panel de Control Odoo ERP</image:title>
             <image:caption>Sistema de gestión empresarial y ventas para PyMEs en Paraguay</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://microlinesolutions.com/images/logo.webp</image:loc>
+            <image:loc>https://microlinesolutions.com/images/logo.png</image:loc>
             <image:title>Logo Microline Solutions</image:title>
             <image:caption>Expertos en implementación y soporte Odoo ERP</image:caption>
         </image:image>
