@@ -960,6 +960,12 @@ p a {
     margin-bottom: 0.25rem;
 }
 
+.footer-bottom a {
+    color: var(--bg-white);
+    font-weight: 700;
+    text-decoration: none;
+}
+
 /* ========================================
    WhatsApp Floating Button
    ======================================== */
