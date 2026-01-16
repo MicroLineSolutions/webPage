@@ -177,8 +177,9 @@ p a {
    ======================================== */
 #header {
     background-color: var(--bg-white);
-    /* Truco: Usar degradado como imagen para evitar inversión de color en modo oscuro */
-    background-image: linear-gradient(#ffffff, #ffffff);
+    /* Imagen real (pixel blanco) codificada para forzar fondo blanco en modo oscuro */
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+P///38ACfsD/QVkvswAAAAASUVORK5CYII=');
+    background-repeat: repeat;
     box-shadow: var(--shadow-sm);
     position: sticky;
     top: 0;
