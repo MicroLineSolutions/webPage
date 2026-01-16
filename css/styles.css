@@ -8,7 +8,6 @@
 }
 
 :root {
-    color-scheme: light;
     /* Primary Colors - Dark Blue */
     --primary-color: #1a2332;
     --primary-dark: #0f1621;
@@ -178,6 +177,8 @@ p a {
    ======================================== */
 #header {
     background-color: var(--bg-white);
+    /* Truco: Usar degradado como imagen para evitar inversión de color en modo oscuro */
+    background-image: linear-gradient(#ffffff, #ffffff);
     box-shadow: var(--shadow-sm);
     position: sticky;
     top: 0;
