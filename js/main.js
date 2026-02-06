@@ -82,12 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
 
-        // Lazy loading
-        lazy: {
-            loadPrevNext: true,
-            loadPrevNextAmount: 1,
-        },
-
         // Responsive breakpoints
         breakpoints: {
             768: {
