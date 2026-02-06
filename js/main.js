@@ -93,4 +93,51 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // --- Lightbox Functionality ---
+    const galleryImages = document.querySelectorAll('.gallery-swiper img');
+
+    // Create Lightbox Modal Elements
+    const lightboxModal = document.createElement('div');
+    lightboxModal.className = 'lightbox-modal';
+    lightboxModal.innerHTML = `
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" src="" alt="Ampliación de pantalla">
+    `;
+    document.body.appendChild(lightboxModal);
+
+    const lightboxImg = lightboxModal.querySelector('.lightbox-content');
+    const lightboxClose = lightboxModal.querySelector('.lightbox-close');
+
+    galleryImages.forEach(img => {
+        img.addEventListener('click', function () {
+            const imgSrc = this.getAttribute('src');
+            lightboxImg.setAttribute('src', imgSrc);
+            lightboxModal.classList.add('active');
+            document.body.style.top = `-${window.scrollY}px`;
+            document.body.style.position = 'fixed';
+            document.body.style.width = '100%';
+        });
+    });
+
+    const closeLightbox = () => {
+        const scrollY = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+
+        lightboxModal.classList.remove('active');
+        setTimeout(() => { lightboxImg.setAttribute('src', ''); }, 300);
+    };
+
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightboxModal.addEventListener('click', (e) => {
+        if (e.target === lightboxModal) closeLightbox();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightboxModal.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
 });
